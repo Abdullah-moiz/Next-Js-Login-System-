@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# ScreenShots 
+
+# Login
+
+![image](https://user-images.githubusercontent.com/90745903/221921832-6b784eab-e22e-4755-8987-dcef714a7023.png)
+
+# Register
+
+![image](https://user-images.githubusercontent.com/90745903/221921874-533539cb-8045-493e-99d2-fcd6b81dbf3b.png)
+
+# Home Page
+
+
+# validation  using Joi
+
+![image](https://user-images.githubusercontent.com/90745903/221922330-131d54f8-7f14-4d3c-a109-77c08f572791.png)
+
+![image](https://user-images.githubusercontent.com/90745903/221922635-c5479765-f0a5-4984-915a-c05e5e839554.png)
+
+
 ## Getting Started
 
 First, run the development server:
