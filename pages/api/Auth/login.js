@@ -39,7 +39,7 @@ export default async (req, res) => {
                     return res.status(401).json({ success: false, message: "Something went wrong" })
                 }
                 if (result) {
-                    const token = jwt.sign({ email: user.email, id: user._id  , name : user.name}, process.env.JWT_SECRET, { expiresIn: "1h" });
+                    const token = jwt.sign({ email: user.email, id: user._id, name: user.name }, process.env.JWT_SECRET, { expiresIn: "1h" });
                     return res.status(200).json({ success: true, message: "Login Successfull", token })
                 }
                 else {
@@ -52,7 +52,7 @@ export default async (req, res) => {
 
         console.log("Error in login_user (server) => ", error);
 
-        res.status(500).json({ success: false, message: "Something went wrong" })
+        return res.status(500).json({ success: false, message: "Something went wrong" })
 
     }
 }
